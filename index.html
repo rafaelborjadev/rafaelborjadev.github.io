@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Teatro Luis Poma</title>
+<!--<link type="text/css" href="estilo/stylesheets/ModuleStyleSheets.css" rel="StyleSheet">-->
+<script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflioRwVn/www-widgetapi.js" async=""></script>
+<script src="https://www.youtube.com/player_api"></script><script type="text/javascript">var jslang='ES';</script>
+<link href="https://teatroluispoma.biz/estilo/2015/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="https://teatroluispoma.biz/estilo/2015/css/general.css" rel="stylesheet" type="text/css">
+<link href="https://teatroluispoma.biz/estilo/2015/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://teatroluispoma.biz/estilo/2015/css/style.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/css/animate.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/js/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://teatroluispoma.biz/estilo/2015/css/main.css" rel="stylesheet"> <!-- revisar -->
+<link href="https://teatroluispoma.biz/estilo/2015/css/responsive.css" rel="stylesheet">
+<!--<link rel="stylesheet" type="text/css" href="https://teatroluispoma.biz/css/butacas.css" media="all" />-->
+<script src="https://teatroluispoma.biz/estilo/validaciones.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=es" async defer></script>
+
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<meta content="Tetro Poma - Compra de butacas" name="author">
+<meta content="Compra de butacas teatro poma" name="description">
+
+<!--<script src="estilo/2015/js/jquery-1.10.2.js"></script>--> 
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+
+
+<!-- Bootstrap -->
+<!-- Fonts -->
+<!-- estilos personalizados -->
+<!-- Animaciones -->
+<!--menu principal-->
+<style>
+    @media screen and (max-width: 500px) {
+    #img-ini {
+    margin-top:-52%;
+    width: 45%;
+    }
+    }
+    @media screen and (min-width: 510px) {
+    #img-ini {
+    margin-top:-45%;
+    width: 30%;
+    }
+    }
+    @media screen and (min-width: 769px) {
+    #img-ini {
+    margin-top:-47%;
+    width: 15%;
+    }
+    }
+</style>
+
+<!-- jQuery UI - Tooltip -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+
+<style>
+    label {
+    display: inline-block;
+    width: 5em;
+    }
+</style>
+
+</head>
+
+<body id="bdy" class="homepage">
+<!-- INICIO CONTENIDO -->
+<div class="contenido">
+
+
+<form id="frm_comprar_butacas" onsubmit="comprar()">
+
+   <br />
+      <div class="tsegmento">
+        <div class="paso1">
+          <div style="background-color:#688c45; text-align:center; color:#FFF; text-transform:uppercase; width:100.6%; border-top-left-radius: 10px; border-top-right-radius: 10px; position: relative; right: 1.5px;">
+           SELECCIONAR BUTACA/S 
+          </div>
+          <center>
+          <div class="nota">
+            <strong>"Recital Mis primeros compases"</strong><br/>
+            <strong>""</strong><br/>
+            Por favor escribe tus datos y selecciona tu/s butaca/s. Luego presiona: <strong>COMPRAR</strong><br/>
+            <div class="pulso">
+              <span style="color: #3c5634; font-weight: bold;">¡El sistema en línea solo permite comprar entradas generales!</span>
+            </div>
+            <br/>
+          </div>
+          </center>
+        </div>
+      </div>
+
+	
+	
+    <script type="text/javascript">
+
+    function press1() {
+      var nombre = document.getElementById("nomCom");
+      nombre.value = capitalize(nombre.value);
+    }
+
+    function capitalize(s){
+      return s.toLowerCase().replace( /\b./g, function(a){ return a.toUpperCase(); } );
+    }
+
+    function press2(){
+      var correo = document.getElementById("mailCom");
+      correo.value = minimize(correo.value);
+    }
+
+    function minimize(s){
+      return s.toLowerCase();
+    }
+
+  </script>
+
+	<div class="tsegmento">
+	<br/>
+
+	<div class="campos">
+	 <div style="background-color:#688c45; text-align:center; color:#FFF; text-transform:uppercase; width: 100.6%; position: relative; right: 1.5px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+	  INGRESA TU NOMBRE Y CORREO
+	 </div>
+	 <center>
+	  <div class="texto">
+	  <br/>
+	  NOMBRE COMPLETO: <input id="nomCom" class="input3" maxlength="60" type="text" placeholder="-" name="nombre" value="" onblur="press1();" onkeypress="return validarLetras(event)" required/><br/><span class="error">* Dato requerido</span>
+
+	  <hr noshade width="95%">
+	  CORREO ELECTR&Oacute;NICO: <input id="mailCom" class="input3" maxlength="50" placeholder="ejemplo@email.com" type="text" name="correo" value="" onblur="press2();" required/><br/><span class="error">* Dato requerido</span>
+	  <br/><br/>
+	  </div>
+	 </center>
+	</div>
+	<br/>
+
+  
+	<script type="text/javascript">
+
+		function comprar(){
+			alert("HOLA")
+		}
+
+	</script>
+
+		 </table>
+	 </center>
+	</div>
+	<br/>
+	<div class="tsegmento">
+              <!--inicio butacas seleccionadas-->
+              <div class="paso1">
+                <div style="background-color:#688c45; text-align:center; color:#FFF; text-transform:uppercase; width: 100.6%; position: relative; right: 1.5px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                  BUTACAS SELECCIONADAS
+                </div>
+                <center>
+                <div class="texto">
+                  <input class="input3" id="posicion" style="width:100%; font-weight: bold; border-top-left-radius: 0px; border-top-right-radius: 0px;" name="posicion" readonly type="text" value="" />
+                </div>
+                </center>
+              </div>
+              <!--fin butacas seleccionadas-->
+            </div>
+  
+	<br/>
+	
+	<p id="scroll-note">
+    <i class="fa fa-arrow-left" aria-hidden="true"></i> "Puedes desplazar el mapa de butacas horizontalmente" <i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </p>
+	</div>
+
+	 	  <input type="hidden" name="ID_funcion" value="1058" />
+	  <input type="hidden" name="ID_funcion_fecha" value="---" />
+
+    
+    <script type="text/javascript">
+
+var precioDia;
+
+function resultado () {
+            $('#resultado').text("Total de compra $" + (($("#posicion").val().split(',').length-1) * precioDia).toFixed(2) +"");
+    }
+
+$(document).ready(function() 
+{
+    var precioDia = 5.00;
+
+    $('.butaca, .butaca2').click(function () 
+    {
+        var butaca = this;
+        
+        if ($('#posicion').val().indexOf(this.id+',') == -1 && !$(this).hasClass('butaca_'+this.rel+'_compra'))
+        {
+            // Revisar si nadie tiene a punto de comprar esta butaca, si no marcarla como tal
+
+                    $(butaca).removeClass('butaca_'+butaca.rel+'_normal').addClass('butaca_'+butaca.rel+'_sel');
+                    
+                    while($('#posicion').val().indexOf(butaca.id+',') != -1)
+                    {
+                        $('#posicion').val($('#posicion').val().replace(butaca.id+',',''));
+                    }
+
+                    $('#posicion').val($('#posicion').val()+butaca.id+',');
+
+                
+                resultado();
+        } 
+        else 
+        {
+            $(this).removeClass('butaca_'+this.rel+'_sel').addClass('butaca_'+this.rel+'_normal');
+            
+            while($('#posicion').val().indexOf(this.id+',') != -1)
+            {
+                $('#posicion').val($('#posicion').val().replace(this.id+',',''));
+            }
+
+                        resultado();
+        }        
+        
+        if ($(this).hasClass('butaca'))
+            return false;
+    });
+
+    resultado();
+    
+    var IDs = $("#posicion").val().split(',');
+    for(var i in IDs)
+    {
+        if ( $("#"+IDs[i]).hasClass('butaca') )
+            $("#"+IDs[i]).removeClass('butaca_'+$("#"+IDs[i]).attr('rel')+'_normal').addClass('butaca_'+$("#"+IDs[i]).attr('rel')+'_sel');
+        else
+            $("#"+IDs[i]).attr('checked', true);
+    }
+
+    /*$('.text_precio').live('keyup',(function(){resultado();}));*/
+    $('.text_precio').on("keyup","a",(function(){resultado();}));
+});
+
+</script>
+
+<div style="overflow-x:auto;"><div id="mapa_butacass"><a href="#" rel="izq" id="A1" class="butaca butaca_izq_normal" style="left:709px;top:252px;"></a>
+<a href="#" rel="der" id="A2" class="butaca butaca_der_normal" style="left:236px;top:249px;"></a>
+<a href="#" rel="izq" id="A3" class="butaca butaca_izq_normal" style="left:737px;top:250px;"></a>
+<a href="#" rel="der" id="A4" class="butaca butaca_der_normal" style="left:209px;top:245px;"></a>
+<a href="#" rel="izq" id="A5" class="butaca butaca_izq_normal" style="left:766px;top:248px;"></a>
+<a href="#" rel="der" id="A6" class="butaca butaca_der_normal" style="left:180px;top:243px;"></a>
+<a href="#" rel="izq" id="A7" class="butaca butaca_izq_normal" style="left:793px;top:246px;"></a>
+<a href="#" rel="der" id="A8" class="butaca butaca_der_normal" style="left:153px;top:240px;"></a>
+<a href="#" rel="izqS" id="A9" class="butaca butaca_izqS_normal" style="left:820px;top:242px;"></a>
+<a href="#" rel="der" id="A10" class="butaca butaca_der_normal" style="left:151px;top:242px;"></a>
+<a href="#" rel="derS" id="A12" class="butaca butaca_derS_normal" style="left:124px;top:235px;"></a>
+<a href="#" rel="centro" id="A101" class="butaca butaca_centro_normal" style="left:478px;top:257px;"></a>
+<a href="#" rel="centro" id="A102" class="butaca butaca_centro_normal" style="left:450px;top:257px;"></a>
+<a href="#" rel="centro" id="A103" class="butaca butaca_centro_normal" style="left:507px;top:257px;"></a>
+<a href="#" rel="centro" id="A104" class="butaca butaca_centro_normal" style="left:422px;top:255px;"></a>
+<a href="#" rel="centro" id="A105" class="butaca butaca_centro_normal" style="left:535px;top:257px;"></a>
+<a href="#" rel="centro" id="A106" class="butaca butaca_centro_normal" style="left:393px;top:254px;"></a>
+<a href="#" rel="centro" id="A107" class="butaca butaca_centro_normal" style="left:563px;top:254px;"></a>
+<a href="#" rel="centro" id="A108" class="butaca butaca_centro_normal" style="left:366px;top:252px;"></a>
+<a href="#" rel="centro" id="A109" class="butaca butaca_centro_normal" style="left:591px;top:251px;"></a>
+<a href="#" rel="centro" id="A110" class="butaca butaca_centro_normal" style="left:337px;top:251px;"></a>
+<a href="#" rel="centro" id="A111" class="butaca butaca_centro_normal" style="left:619px;top:249px;"></a>
+<a href="#" rel="izq" id="B1" class="butaca butaca_izq_normal" style="left:697px;top:299px;"></a>
+<a href="#" rel="der" id="B2" class="butaca butaca_der_normal" style="left:253px;top:302px;"></a>
+<a href="#" rel="izq" id="B3" class="butaca butaca_izq_normal" style="left:726px;top:297px;"></a>
+<a href="#" rel="der" id="B4" class="butaca butaca_der_normal" style="left:225px;top:298px;"></a>
+<a href="#" rel="izq" id="B5" class="butaca butaca_izq_normal" style="left:753px;top:294px;"></a>
+<a href="#" rel="der" id="B6" class="butaca butaca_der_normal" style="left:196px;top:295px;"></a>
+<a href="#" rel="izq" id="B7" class="butaca butaca_izq_normal" style="left:781px;top:293px;"></a>
+<a href="#" rel="der" id="B8" class="butaca butaca_der_normal" style="left:168px;top:292px;"></a>
+<a href="#" rel="izq" id="B9" class="butaca butaca_izq_normal" style="left:810px;top:291px;"></a>
+<a href="#" rel="der" id="B10" class="butaca butaca_der_normal" style="left:140px;top:289px;"></a>
+<a href="#" rel="izq" id="B11" class="butaca butaca_izq_normal" style="left:838px;top:288px;"></a>
+<a href="#" rel="der" id="B12" class="butaca butaca_der_normal" style="left:112px;top:286px;"></a>
+<a href="#" rel="centro" id="B101" class="butaca butaca_centro_normal" style="left:478px;top:310px;"></a>
+<a href="#" rel="centro" id="B102" class="butaca butaca_centro_normal" style="left:451px;top:310px;"></a>
+<a href="#" rel="centro" id="B103" class="butaca butaca_centro_normal" style="left:507px;top:310px;"></a>
+<a href="#" rel="centro" id="B104" class="butaca butaca_centro_normal" style="left:422px;top:308px;"></a>
+<a href="#" rel="centro" id="B105" class="butaca butaca_centro_normal" style="left:535px;top:310px;"></a>
+<a href="#" rel="centro" id="B106" class="butaca butaca_centro_normal" style="left:394px;top:307px;"></a>
+<a href="#" rel="centro" id="B107" class="butaca butaca_centro_normal" style="left:563px;top:307px;"></a>
+<a href="#" rel="centro" id="B108" class="butaca butaca_centro_normal" style="left:366px;top:305px;"></a>
+<a href="#" rel="centro" id="B109" class="butaca butaca_centro_normal" style="left:591px;top:304px;"></a>
+<a href="#" rel="centro" id="B110" class="butaca butaca_centro_normal" style="left:337px;top:304px;"></a>
+<a href="#" rel="centro" id="B111" class="butaca butaca_centro_normal" style="left:619px;top:302px;"></a>
+<a href="#" rel="izq" id="C1" class="butaca butaca_izq_normal" style="left:702px;top:347px;"></a>
+<a href="#" rel="der" id="C2" class="butaca butaca_der_normal" style="left:252px;top:352px;"></a>
+<a href="#" rel="izq" id="C3" class="butaca butaca_izq_normal" style="left:731px;top:345px;"></a>
+<a href="#" rel="der" id="C4" class="butaca butaca_der_normal" style="left:225px;top:349px;"></a>
+<a href="#" rel="izq" id="C5" class="butaca butaca_izq_normal" style="left:759px;top:343px;"></a>
+<a href="#" rel="der" id="C6" class="butaca butaca_der_normal" style="left:196px;top:346px;"></a>
+<a href="#" rel="izq" id="C7" class="butaca butaca_izq_normal" style="left:786px;top:341px;"></a>
+<a href="#" rel="der" id="C8" class="butaca butaca_der_normal" style="left:169px;top:343px;"></a>
+<a href="#" rel="izq" id="C9" class="butaca butaca_izq_normal" style="left:815px;top:339px;"></a>
+<a href="#" rel="der" id="C10" class="butaca butaca_der_normal" style="left:140px;top:340px;"></a>
+<a href="#" rel="izq" id="C11" class="butaca butaca_izq_normal" style="left:843px;top:337px;"></a>
+<a href="#" rel="der" id="C12" class="butaca butaca_der_normal" style="left:112px;top:337px;"></a>
+<a href="#" rel="centro" id="C101" class="butaca butaca_centro_normal" style="left:493px;top:362px;"></a>
+<a href="#" rel="centro" id="C102" class="butaca butaca_centro_normal" style="left:466px;top:362px;"></a>
+<a href="#" rel="centro" id="C103" class="butaca butaca_centro_normal" style="left:521px;top:363px;"></a>
+<a href="#" rel="centro" id="C104" class="butaca butaca_centro_normal" style="left:437px;top:361px;"></a>
+<a href="#" rel="centro" id="C105" class="butaca butaca_centro_normal" style="left:550px;top:362px;"></a>
+<a href="#" rel="centro" id="C106" class="butaca butaca_centro_normal" style="left:409px;top:360px;"></a>
+<a href="#" rel="centro" id="C107" class="butaca butaca_centro_normal" style="left:578px;top:359px;"></a>
+<a href="#" rel="centro" id="C108" class="butaca butaca_centro_normal" style="left:381px;top:357px;"></a>
+<a href="#" rel="centro" id="C109" class="butaca butaca_centro_normal" style="left:606px;top:356px;"></a>
+<a href="#" rel="centro" id="C110" class="butaca butaca_centro_normal" style="left:352px;top:356px;"></a>
+<a href="#" rel="centro" id="C111" class="butaca butaca_centro_normal" style="left:634px;top:354px;"></a>
+<a href="#" rel="centro" id="C112" class="butaca butaca_centro_normal" style="left:323px;top:357px;"></a>
+<a href="#" rel="izq" id="D1" class="butaca butaca_izq_normal" style="left:722px;top:397px;"></a>
+<a href="#" rel="der" id="D2" class="butaca butaca_der_normal" style="left:219px;top:400px;"></a>
+<a href="#" rel="izq" id="D3" class="butaca butaca_izq_normal" style="left:751px;top:394px;"></a>
+<a href="#" rel="der" id="D4" class="butaca butaca_der_normal" style="left:192px;top:397px;"></a>
+<a href="#" rel="izq" id="D5" class="butaca butaca_izq_normal" style="left:778px;top:392px;"></a>
+<a href="#" rel="der" id="D6" class="butaca butaca_der_normal" style="left:163px;top:394px;"></a>
+<a href="#" rel="izq" id="D7" class="butaca butaca_izq_normal" style="left:806px;top:389px;"></a>
+<a href="#" rel="der" id="D8" class="butaca butaca_der_normal" style="left:136px;top:391px;"></a>
+<a href="#" rel="izq" id="D9" class="butaca butaca_izq_normal" style="left:835px;top:388px;"></a>
+<a href="#" rel="der" id="D10" class="butaca butaca_der_normal" style="left:108px;top:388px;"></a>
+<a href="#" rel="centro" id="D101" class="butaca butaca_centro_normal" style="left:493px;top:413px;"></a>
+<a href="#" rel="centro" id="D102" class="butaca butaca_centro_normal" style="left:466px;top:413px;"></a>
+<a href="#" rel="centro" id="D103" class="butaca butaca_centro_normal" style="left:522px;top:413px;"></a>
+<a href="#" rel="centro" id="D104" class="butaca butaca_centro_normal" style="left:437px;top:410px;"></a>
+<a href="#" rel="centro" id="D105" class="butaca butaca_centro_normal" style="left:550px;top:413px;"></a>
+<a href="#" rel="centro" id="D106" class="butaca butaca_centro_normal" style="left:409px;top:410px;"></a>
+<a href="#" rel="centro" id="D107" class="butaca butaca_centro_normal" style="left:578px;top:410px;"></a>
+<a href="#" rel="centro" id="D108" class="butaca butaca_centro_normal" style="left:381px;top:408px;"></a>
+<a href="#" rel="centro" id="D109" class="butaca butaca_centro_normal" style="left:606px;top:407px;"></a>
+<a href="#" rel="centro" id="D110" class="butaca butaca_centro_normal" style="left:352px;top:407px;"></a>
+<a href="#" rel="centro" id="D111" class="butaca butaca_centro_normal" style="left:634px;top:405px;"></a>
+<a href="#" rel="centro" id="D112" class="butaca butaca_centro_normal" style="left:323px;top:407px;"></a>
+<a href="#" rel="izq" id="E1" class="butaca butaca_izq_normal" style="left:730px;top:453px;"></a>
+<a href="#" rel="der" id="E2" class="butaca butaca_der_normal" style="left:214px;top:456px;"></a>
+<a href="#" rel="izq" id="E3" class="butaca butaca_izq_normal" style="left:758px;top:451px;"></a>
+<a href="#" rel="der" id="E4" class="butaca butaca_der_normal" style="left:186px;top:454px;"></a>
+<a href="#" rel="izq" id="E5" class="butaca butaca_izq_normal" style="left:786px;top:449px;"></a>
+<a href="#" rel="der" id="E6" class="butaca butaca_der_normal" style="left:158px;top:450px;"></a>
+<a href="#" rel="izq" id="E7" class="butaca butaca_izq_normal" style="left:814px;top:447px;"></a>
+<a href="#" rel="der" id="E8" class="butaca butaca_der_normal" style="left:131px;top:448px;"></a>
+<a href="#" rel="izq" id="E9" class="butaca butaca_izq_normal" style="left:843px;top:445px;"></a>
+<a href="#" rel="der" id="E10" class="butaca butaca_der_normal" style="left:104px;top:445px;"></a>
+<a href="#" rel="centro" id="E101" class="butaca butaca_centro_normal" style="left:493px;top:464px;"></a>
+<a href="#" rel="centro" id="E102" class="butaca butaca_centro_normal" style="left:466px;top:464px;"></a>
+<a href="#" rel="centro" id="E103" class="butaca butaca_centro_normal" style="left:521px;top:464px;"></a>
+<a href="#" rel="centro" id="E104" class="butaca butaca_centro_normal" style="left:437px;top:462px;"></a>
+<a href="#" rel="centro" id="E105" class="butaca butaca_centro_normal" style="left:550px;top:464px;"></a>
+<a href="#" rel="centro" id="E106" class="butaca butaca_centro_normal" style="left:409px;top:461px;"></a>
+<a href="#" rel="centro" id="E107" class="butaca butaca_centro_normal" style="left:578px;top:461px;"></a>
+<a href="#" rel="centro" id="E108" class="butaca butaca_centro_normal" style="left:381px;top:459px;"></a>
+<a href="#" rel="centro" id="E109" class="butaca butaca_centro_normal" style="left:606px;top:458px;"></a>
+<a href="#" rel="centro" id="E110" class="butaca butaca_centro_normal" style="left:352px;top:458px;"></a>
+<a href="#" rel="centro" id="E111" class="butaca butaca_centro_normal" style="left:634px;top:456px;"></a>
+<a href="#" rel="centro" id="E112" class="butaca butaca_centro_normal" style="left:323px;top:458px;"></a>
+<a href="#" rel="izq" id="F1" class="butaca butaca_izq_normal" style="left:731px;top:509px;"></a>
+<a href="#" rel="der" id="F2" class="butaca butaca_der_normal" style="left:210px;top:509px;"></a>
+<a href="#" rel="izq" id="F3" class="butaca butaca_izq_normal" style="left:759px;top:507px;"></a>
+<a href="#" rel="der" id="F4" class="butaca butaca_der_normal" style="left:182px;top:506px;"></a>
+<a href="#" rel="izq" id="F5" class="butaca butaca_izq_normal" style="left:787px;top:505px;"></a>
+<a href="#" rel="der" id="F6" class="butaca butaca_der_normal" style="left:153px;top:504px;"></a>
+<a href="#" rel="izq" id="F7" class="butaca butaca_izq_normal" style="left:815px;top:503px;"></a>
+<a href="#" rel="der" id="F8" class="butaca butaca_der_normal" style="left:126px;top:500px;"></a>
+<a href="#" rel="izq" id="F9" class="butaca butaca_izq_normal" style="left:844px;top:501px;"></a>
+<a href="#" rel="der" id="F10" class="butaca butaca_der_normal" style="left:98px;top:497px;"></a>
+<a href="#" rel="centro" id="F101" class="butaca butaca_centro_normal" style="left:480px;top:517px;"></a>
+<a href="#" rel="centro" id="F102" class="butaca butaca_centro_normal" style="left:452px;top:517px;"></a>
+<a href="#" rel="centro" id="F103" class="butaca butaca_centro_normal" style="left:507px;top:517px;"></a>
+<a href="#" rel="centro" id="F104" class="butaca butaca_centro_normal" style="left:423px;top:515px;"></a>
+<a href="#" rel="centro" id="F105" class="butaca butaca_centro_normal" style="left:536px;top:517px;"></a>
+<a href="#" rel="centro" id="F106" class="butaca butaca_centro_normal" style="left:396px;top:514px;"></a>
+<a href="#" rel="centro" id="F107" class="butaca butaca_centro_normal" style="left:564px;top:515px;"></a>
+<a href="#" rel="centro" id="F108" class="butaca butaca_centro_normal" style="left:367px;top:512px;"></a>
+<a href="#" rel="centro" id="F109" class="butaca butaca_centro_normal" style="left:592px;top:512px;"></a>
+<a href="#" rel="centro" id="F110" class="butaca butaca_centro_normal" style="left:339px;top:511px;"></a>
+<a href="#" rel="centro" id="F111" class="butaca butaca_centro_normal" style="left:619px;top:510px;"></a>
+<a href="#" rel="centro" id="F112" class="butaca butaca_centro_normal" style="left:309px;top:511px;"></a>
+<a href="#" rel="centro" id="F113" class="butaca butaca_centro_normal" style="left:648px;top:510px;"></a>
+<a href="#" rel="izq" id="G1" class="butaca butaca_izq_normal" style="left:738px;top:558px;"></a>
+<a href="#" rel="der" id="G2" class="butaca butaca_der_normal" style="left:203px;top:563px;"></a>
+<a href="#" rel="izq" id="G3" class="butaca butaca_izq_normal" style="left:766px;top:556px;"></a>
+<a href="#" rel="der" id="G4" class="butaca butaca_der_normal" style="left:176px;top:561px;"></a>
+<a href="#" rel="izq" id="G5" class="butaca butaca_izq_normal" style="left:794px;top:554px;"></a>
+<a href="#" rel="der" id="G6" class="butaca butaca_der_normal" style="left:148px;top:557px;"></a>
+<a href="#" rel="izq" id="G7" class="butaca butaca_izq_normal" style="left:822px;top:552px;"></a>
+<a href="#" rel="der" id="G8" class="butaca butaca_der_normal" style="left:120px;top:555px;"></a>
+<a href="#" rel="izq" id="G9" class="butaca butaca_izq_normal" style="left:851px;top:549px;"></a>
+<a href="#" rel="der" id="G10" class="butaca butaca_der_normal" style="left:92px;top:551px;"></a>
+<a href="#" rel="centro" id="G101" class="butaca butaca_centro_normal" style="left:479px;top:569px;"></a>
+<a href="#" rel="centro" id="G102" class="butaca butaca_centro_normal" style="left:452px;top:569px;"></a>
+<a href="#" rel="centro" id="G103" class="butaca butaca_centro_normal" style="left:508px;top:569px;"></a>
+<a href="#" rel="centro" id="G104" class="butaca butaca_centro_normal" style="left:423px;top:567px;"></a>
+<a href="#" rel="centro" id="G105" class="butaca butaca_centro_normal" style="left:536px;top:569px;"></a>
+<a href="#" rel="centro" id="G106" class="butaca butaca_centro_normal" style="left:396px;top:566px;"></a>
+<a href="#" rel="centro" id="G107" class="butaca butaca_centro_normal" style="left:564px;top:566px;"></a>
+<a href="#" rel="centro" id="G108" class="butaca butaca_centro_normal" style="left:367px;top:564px;"></a>
+<a href="#" rel="centro" id="G109" class="butaca butaca_centro_normal" style="left:591px;top:563px;"></a>
+<a href="#" rel="centro" id="G110" class="butaca butaca_centro_normal" style="left:338px;top:563px;"></a>
+<a href="#" rel="centro" id="G111" class="butaca butaca_centro_normal" style="left:619px;top:561px;"></a>
+<a href="#" rel="centro" id="G112" class="butaca butaca_centro_normal" style="left:309px;top:564px;"></a>
+<a href="#" rel="centro" id="G113" class="butaca butaca_centro_normal" style="left:648px;top:561px;"></a>
+<a href="#" rel="izq" id="H1" class="butaca butaca_izq_normal" style="left:743px;top:608px;"></a>
+<a href="#" rel="der" id="H2" class="butaca butaca_der_normal" style="left:205px;top:611px;"></a>
+<a href="#" rel="izq" id="H3" class="butaca butaca_izq_normal" style="left:772px;top:606px;"></a>
+<a href="#" rel="der" id="H4" class="butaca butaca_der_normal" style="left:177px;top:608px;"></a>
+<a href="#" rel="izq" id="H5" class="butaca butaca_izq_normal" style="left:799px;top:604px;"></a>
+<a href="#" rel="der" id="H6" class="butaca butaca_der_normal" style="left:148px;top:605px;"></a>
+<a href="#" rel="izq" id="H7" class="butaca butaca_izq_normal" style="left:827px;top:602px;"></a>
+<a href="#" rel="der" id="H8" class="butaca butaca_der_normal" style="left:121px;top:602px;"></a>
+<a href="#" rel="izq" id="H9" class="butaca butaca_izq_normal" style="left:856px;top:600px;"></a>
+<a href="#" rel="der" id="H10" class="butaca butaca_der_normal" style="left:93px;top:599px;"></a>
+<a href="#" rel="centro" id="H101" class="butaca butaca_centro_normal" style="left:494px;top:623px;"></a>
+<a href="#" rel="centro" id="H102" class="butaca butaca_centro_normal" style="left:466px;top:623px;"></a>
+<a href="#" rel="centro" id="H103" class="butaca butaca_centro_normal" style="left:521px;top:623px;"></a>
+<a href="#" rel="centro" id="H104" class="butaca butaca_centro_normal" style="left:437px;top:621px;"></a>
+<a href="#" rel="centro" id="H105" class="butaca butaca_centro_normal" style="left:550px;top:623px;"></a>
+<a href="#" rel="centro" id="H106" class="butaca butaca_centro_normal" style="left:409px;top:620px;"></a>
+<a href="#" rel="centro" id="H107" class="butaca butaca_centro_normal" style="left:578px;top:620px;"></a>
+<a href="#" rel="centro" id="H108" class="butaca butaca_centro_normal" style="left:381px;top:618px;"></a>
+<a href="#" rel="centro" id="H109" class="butaca butaca_centro_normal" style="left:606px;top:617px;"></a>
+<a href="#" rel="centro" id="H110" class="butaca butaca_centro_normal" style="left:352px;top:617px;"></a>
+<a href="#" rel="centro" id="H111" class="butaca butaca_centro_normal" style="left:634px;top:615px;"></a>
+<a href="#" rel="centro" id="H112" class="butaca butaca_centro_normal" style="left:324px;top:617px;"></a>
+<a href="#" rel="centro" id="H113" class="butaca butaca_centro_normal" style="left:662px;top:615px;"></a>
+<a href="#" rel="centro" id="H114" class="butaca butaca_centro_normal" style="left:295px;top:615px;"></a>
+<a href="#" rel="izq" id="J1" class="butaca butaca_izq_normal" style="left:746px;top:660px;"></a>
+<a href="#" rel="der" id="J2" class="butaca butaca_der_normal" style="left:201px;top:659px;"></a>
+<a href="#" rel="izq" id="J3" class="butaca butaca_izq_normal" style="left:774px;top:658px;"></a>
+<a href="#" rel="der" id="J4" class="butaca butaca_der_normal" style="left:172px;top:656px;"></a>
+<a href="#" rel="izq" id="J5" class="butaca butaca_izq_normal" style="left:802px;top:656px;"></a>
+<a href="#" rel="der" id="J6" class="butaca butaca_der_normal" style="left:144px;top:653px;"></a>
+<a href="#" rel="izq" id="J7" class="butaca butaca_izq_normal" style="left:830px;top:654px;"></a>
+<a href="#" rel="der" id="J8" class="butaca butaca_der_normal" style="left:116px;top:650px;"></a>
+<a href="#" rel="izq" id="J9" class="butaca butaca_izq_normal" style="left:859px;top:652px;"></a>
+<a href="#" rel="der" id="J10" class="butaca butaca_der_normal" style="left:88px;top:647px;"></a>
+<a href="#" rel="centro" id="J101" class="butaca butaca_centro_normal" style="left:493px;top:676px;"></a>
+<a href="#" rel="centro" id="J102" class="butaca butaca_centro_normal" style="left:466px;top:676px;"></a>
+<a href="#" rel="centro" id="J103" class="butaca butaca_centro_normal" style="left:521px;top:676px;"></a>
+<a href="#" rel="centro" id="J104" class="butaca butaca_centro_normal" style="left:437px;top:674px;"></a>
+<a href="#" rel="centro" id="J105" class="butaca butaca_centro_normal" style="left:549px;top:676px;"></a>
+<a href="#" rel="centro" id="J106" class="butaca butaca_centro_normal" style="left:409px;top:673px;"></a>
+<a href="#" rel="centro" id="J107" class="butaca butaca_centro_normal" style="left:578px;top:673px;"></a>
+<a href="#" rel="centro" id="J108" class="butaca butaca_centro_normal" style="left:381px;top:671px;"></a>
+<a href="#" rel="centro" id="J109" class="butaca butaca_centro_normal" style="left:605px;top:670px;"></a>
+<a href="#" rel="centro" id="J110" class="butaca butaca_centro_normal" style="left:352px;top:670px;"></a>
+<a href="#" rel="centro" id="J111" class="butaca butaca_centro_normal" style="left:633px;top:668px;"></a>
+<a href="#" rel="centro" id="J112" class="butaca butaca_centro_normal" style="left:324px;top:670px;"></a>
+<a href="#" rel="centro" id="J113" class="butaca butaca_centro_normal" style="left:662px;top:668px;"></a>
+<a href="#" rel="centro" id="J114" class="butaca butaca_centro_normal" style="left:295px;top:668px;"></a>
+<a href="#" rel="izq" id="K1" class="butaca butaca_izq_normal" style="left:755px;top:705px;"></a>
+<a href="#" rel="der" id="K2" class="butaca butaca_der_normal" style="left:193px;top:704px;"></a>
+<a href="#" rel="izq" id="K3" class="butaca butaca_izq_normal" style="left:783px;top:704px;"></a>
+<a href="#" rel="der" id="K4" class="butaca butaca_der_normal" style="left:166px;top:701px;"></a>
+<a href="#" rel="izq" id="K5" class="butaca butaca_izq_normal" style="left:811px;top:702px;"></a>
+<a href="#" rel="der" id="K6" class="butaca butaca_der_normal" style="left:137px;top:698px;"></a>
+<a href="#" rel="izq" id="K7" class="butaca butaca_izq_normal" style="left:839px;top:699px;"></a>
+<a href="#" rel="der" id="K8" class="butaca butaca_der_normal" style="left:110px;top:695px;"></a>
+<a href="#" rel="izq" id="K9" class="butaca butaca_izq_normal" style="left:868px;top:697px;"></a>
+<a href="#" rel="der" id="K10" class="butaca butaca_der_normal" style="left:82px;top:692px;"></a>
+<a href="#" rel="centro" id="K101" class="butaca butaca_centro_normal" style="left:493px;top:722px;"></a>
+<a href="#" rel="centro" id="K102" class="butaca butaca_centro_normal" style="left:466px;top:722px;"></a>
+<a href="#" rel="centro" id="K103" class="butaca butaca_centro_normal" style="left:521px;top:722px;"></a>
+<a href="#" rel="centro" id="K104" class="butaca butaca_centro_normal" style="left:437px;top:720px;"></a>
+<a href="#" rel="centro" id="K105" class="butaca butaca_centro_normal" style="left:550px;top:722px;"></a>
+<a href="#" rel="centro" id="K106" class="butaca butaca_centro_normal" style="left:409px;top:719px;"></a>
+<a href="#" rel="centro" id="K107" class="butaca butaca_centro_normal" style="left:578px;top:719px;"></a>
+<a href="#" rel="centro" id="K108" class="butaca butaca_centro_normal" style="left:381px;top:717px;"></a>
+<a href="#" rel="centro" id="K109" class="butaca butaca_centro_normal" style="left:606px;top:716px;"></a>
+<a href="#" rel="centro" id="K110" class="butaca butaca_centro_normal" style="left:352px;top:716px;"></a>
+<a href="#" rel="centro" id="K111" class="butaca butaca_centro_normal" style="left:634px;top:714px;"></a>
+<a href="#" rel="centro" id="K112" class="butaca butaca_centro_normal" style="left:324px;top:716px;"></a>
+<a href="#" rel="centro" id="K113" class="butaca butaca_centro_normal" style="left:662px;top:714px;"></a>
+<a href="#" rel="centro" id="K114" class="butaca butaca_centro_normal" style="left:295px;top:714px;"></a>
+</div></div>
+     <hr style="margin: 0px;" />
+
+         <!--Botones Atras y Comprar-->
+         <br/>
+         <br/>
+         <div style="display: flex; justify-content: center;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <span id="ecom3o" class="btnIcoD2"><input style="padding:10px 0px;" id="ecom3i" class="btnIn2" type="submit" value="COMPRAR" name="comprar" /></span>
+
+
+         </div>
+
+    <!-- Script que maneja MouseHover de botones -->
+    <script>
+
+            var x1 = document.getElementById("ecom2o");
+            x1.addEventListener("mouseover", myHoverFunction11);
+            x1.addEventListener("mouseout", myHoverFunction21);
+
+            function myHoverFunction11() {
+                    document.getElementById("irback").style.backgroundColor = "#445637";
+                    document.getElementById("irback").style.textIndent = "20px";
+            }
+                
+            function myHoverFunction21() {
+                    document.getElementById("irback").style.backgroundColor = "#698c45";
+                    document.getElementById("irback").style.textIndent = "0px";
+            }
+
+            var x2 = document.getElementById("ecom3o");
+            x2.addEventListener("mouseover", myHoverFunction12);
+            x2.addEventListener("mouseout", myHoverFunction22);
+
+            function myHoverFunction12() {
+                    document.getElementById("ecom3i").style.backgroundColor = "#445637";
+                    document.getElementById("ecom3i").style.textIndent = "-25px";
+            }
+                
+            function myHoverFunction22() {
+                    document.getElementById("ecom3i").style.backgroundColor = "#698c45";
+                    document.getElementById("ecom3i").style.textIndent = "0px";
+            }
+
+    </script> 	  
+</form>
+
+
+<hr/>
+</div>
+<!--fin-->
+        <span class="ir-arriba icon-arrow-up2" style="display: inline;"></span>
+		
+        <!-- JavaScript -->
+        <script src="estilo/2015/js/lib/jquery.appear.js"></script>
+        <script src="estilo/2015/js/bootstrap.min.js"></script>
+        <script src="estilo/2015/js/lib/owl-carousel/owl.carousel.min.js"></script>
+        <script src="estilo/2015/js/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!--<script src="estilo/2015/js/lib/video/jquery.mb.YTPlayer.js"></script>-->
+        <script src="estilo/2015/js/lib/flipclock/flipclock.js"></script>
+        <script src="estilo/2015/js/lib/jquery.animateNumber.js"></script>
+        <!--<script src="estilo/2015/js/lib/jquery.waypoints.min.js"></script>-->
+        <script src="https://teatroluispoma.biz/estilo/2015/js/lib/waypoints.min.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="https://teatroluispoma.biz/estilo/2015/js/main.js"></script> <!-- revisar -->
+</body>
+</html>
